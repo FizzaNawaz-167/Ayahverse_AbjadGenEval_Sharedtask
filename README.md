@@ -15,12 +15,26 @@ The repository includes **pretrained models, datasets, and evaluation pipelines*
 ## Repository Structure
 
 ```
-.
-├─ Arabic/
-├─ Urdu/
-├─ Cross-lingual/
-├─ Datasets/
-└─ README.md
+├── README.md
+├── Datasets/
+│   ├── arabic_test.csv
+│   ├── arabic_train.csv
+│   ├── urdu_test.csv
+│   └── urdu_train.csv
+├── Arabic/
+│   ├── text_classification_machine_human_arabertv2.ipynb
+│   ├── text_classification_machine_human_arabertv2_test_modified_system.py
+│   ├── text_classification_machine_human_asafaya_bert.ipynb
+│   └── text_classification_machine_human_camelbert.ipynb
+├── Cross-lingual/
+│   ├── arabic_to_urdu_freezing_layers.ipynb
+│   ├── arabic_to_urdu_without_freezing_layers.ipynb
+│   ├── urdu_to_arabic_freezing_layers.ipynb
+│   ├── urdu_to_arabic_mbert.ipynb
+│   └── urdu_to_arabic_without_freezing_layers.ipynb
+└── Urdu/
+    ├── urdu_pipelineC_mbert.ipynb
+    └── urdu_pipelineD_mbert.ipynb
 ```
 
 ---
