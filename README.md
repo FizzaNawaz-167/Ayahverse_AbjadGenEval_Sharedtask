@@ -154,5 +154,5 @@ This figure visualizes Pipeline C for script filtering in Urdu text preprocessin
 
 ## Citation
 
-If you use this repository or datasets in your research, please cite the **Ayahverse AbjadGenEval Shared Task**.
+If you use this repository or notebooks in your research, please cite the **Ayahverse AbjadGenEval Shared Task**.
 
