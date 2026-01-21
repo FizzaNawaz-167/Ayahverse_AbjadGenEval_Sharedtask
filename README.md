@@ -1,7 +1,3 @@
-Perfect, I see what you have so far — it’s clean but still a bit barebones. We can **expand it with details on each notebook, dataset, usage instructions, evaluation metrics, and context for the shared task**, so it’s more informative and engaging. Here's an upgraded version:
-
----
-
 # Ayahverse_AbjadGenEval_Sharedtask
 
 ## Overview
