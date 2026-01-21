@@ -34,7 +34,7 @@ Contains notebooks for **Arabic text classification** using different pretrained
 | Notebook                                                          | Model       | Purpose                                                     |
 | ----------------------------------------------------------------- | ----------- | ----------------------------------------------------------- |
 | `text_classification_machine_human_arabertv2.ipynb`               | AraBERTv2   | Baseline Arabic classification using standard test data.    |
-| `text_classification_machine_human_arabertv2_test_modified.ipynb` | AraBERTv2   | Evaluation on **modified test data** to analyze robustness. |
+| `text_classification_machine_human_arabertv2_test_modified.ipynb` | AraBERTv2   | Evaluation on test data, uses **modified** AraBERTv2 architecture for better performance. |
 | `text_classification_machine_human_asafya_bert.ipynb`             | Asafya BERT | Alternative Arabic BERT model for comparison.               |
 | `text_classification_machine_human_camelbert.ipynb`               | CAMeL BERT  | Another Arabic BERT baseline for benchmarking.              |
 
@@ -76,10 +76,11 @@ Notebooks for **cross-lingual experiments** between Arabic and Urdu:
 
 **Highlights:**
 
-* Tests effectiveness of **layer freezing** in cross-lingual adaptation.
+* It uses the `text_classification_machine_human_arabertv2.ipynb` file which implements the basic model.
+* Tests effects of **layer freezing** in cross-lingual adaptation.
 * Evaluates **multilingual models’ transfer ability** in low-resource scenarios.
 * Metrics include **accuracy, precision, recall, F1-score**, and **qualitative error inspection**.
-
+* Graphically shows the adaptation.
 ---
 
 ### Datasets
@@ -101,64 +102,12 @@ Contains all **raw and preprocessed datasets** used in experiments:
 
 ---
 
-## Installation & Requirements
-
-* Python 3.8+
-* PyTorch 2.x
-* Transformers 4.x
-* pandas, numpy, scikit-learn
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Optional for Jupyter notebooks:
-
-```bash
-pip install notebook jupyterlab
-```
-
----
-
-## Usage
-
-### Arabic Classification
-
-1. Open a notebook under `Arabic/`.
-2. Preprocess the dataset (scripts are included in the notebook).
-3. Train or evaluate using **AraBERTv2, Asafya BERT, or CAMeL BERT**.
-
-### Cross-lingual Experiments
-
-1. Open notebooks under `Cross-lingual/`.
-2. Select the transfer direction (Arabic → Urdu or Urdu → Arabic).
-3. Run experiments with or without **layer freezing**.
-
-### Urdu Pipelines
-
-1. Open notebooks under `Urdu/`.
-2. Train and evaluate **Urdu classification pipelines** using mBERT.
-
----
-
 ## Evaluation Metrics
 
 * **Accuracy** – Overall correctness of predictions.
 * **Precision & Recall** – To evaluate false positives and false negatives.
 * **F1-score** – Harmonic mean of precision and recall.
 * **Error Analysis** – Examine misclassified examples to understand model weaknesses.
-
----
-
-## Contributing
-
-We welcome contributions for:
-
-* Adding new **models or datasets**.
-* Extending **cross-lingual experiments**.
-* Improving **evaluation scripts or analysis pipelines**.
 
 ---
 
