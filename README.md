@@ -35,12 +35,12 @@ The repository includes **pretrained models, datasets, and evaluation pipelines*
 ├── Urdu/
 │   ├── urdu_pipelineC_mbert.ipynb
 │   └── urdu_pipelineD_mbert.ipynb
-└─ Figures
-   ├─ cross-lingual_before_and_after_training.pdf
-   ├─ Crosslingual_Frozen_Ablation.pdf
-   ├─ PathA Monolingual specialist.jpeg
-   ├─ Pipeline A - Semantic Normalization.jpeg
-   └─ Pipeline C - Script Filtering.jpeg
+└── Figures
+    ├── cross-lingual_before_and_after_training.pdf
+    ├── Crosslingual_Frozen_Ablation.pdf
+    ├── PathA Monolingual specialist.jpeg
+    ├── Pipeline A - Semantic Normalization.jpeg
+    └── Pipeline C - Script Filtering.jpeg
 ```
 
 ---
@@ -127,19 +127,19 @@ Contains all **raw and preprocessed datasets** used in experiments:
 
 This figure illustrates the workflow of Path A monolingual specialist model, showing how it processes data and makes predictions in a monolingual setup.
 
-![Path A Monolingual Specialist](Figures/PathA Monolingual specialist.jpeg)
+![Path A Monolingual Specialist](Figures/PathA%20Monolingual%20specialist.jpeg)
 
 #### Pipeline A – Semantic Normalization
 
 This figure shows Pipeline A for semantic normalization in Arabic text preprocessing, explaining how raw text is cleaned and standardized before feeding into models.
 
-![Pipeline A – Semantic Normalization](Figures/Pipeline A - Semantic Normalization.jpeg)
+![Pipeline A – Semantic Normalization](Figures/Pipeline%20A%20-%20Semantic%20Normalization.jpeg)
 
 #### Pipeline C – Script Filtering
 
 This figure visualizes Pipeline C for script filtering in Urdu text preprocessing, demonstrating how irrelevant or noisy scripts are removed prior to training.
 
-![Pipeline C – Script Filtering](Figures/Pipeline C - Script Filtering.jpeg)
+![Pipeline C – Script Filtering](Figures/Pipeline%20C%20-%20Script%20Filtering.jpeg)
 
 ---
 
